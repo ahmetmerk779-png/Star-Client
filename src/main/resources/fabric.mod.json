@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hackclient",
+  "version": "${version}",
+  "name": "HackClient",
+  "description": "Basit bir Fabric 1.21.11 client modu (modül sistemi).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.hackclient.HackClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
